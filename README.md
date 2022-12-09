@@ -7,7 +7,7 @@ detect-hash is a JavaScript module that allows you to detect the algorithm used 
 To install this module, run the following command:
 
 ```
-npm install detect-hash
+hash-detectjs
 ```
 
 ## Usage
