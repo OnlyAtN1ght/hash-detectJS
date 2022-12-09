@@ -7,7 +7,7 @@ detect-hash is a JavaScript module that allows you to detect the algorithm used 
 To install this module, run the following command:
 
 ```
-hash-detectjs
+npm install hash-detectjs
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ hash-detectjs
 To use this module in your JavaScript code, you can import it using the `require` function:
 
 ```
-const detectHash = require('detect-hash');
+import {detectHash} from 'hash-detectjs';
 ```
 
 ```
@@ -30,7 +30,7 @@ Here are some examples of how to use the `detectHash` function:
 
 ```
 // Import the detectHash function
-const detectHash = require('detect-hash');
+import {detectHash} from 'hash-detectjs';
 
 // Use the detectHash function to detect the algorithm used to produce a hash
 const algorithm = detectHash('<hash>');
@@ -52,7 +52,7 @@ console.log(algorithm); // Output: [<algorithm1>, <algorithm2>, ...]
 By default, the `detectHash` function uses a built-in list of regular expressions and hash algorithms to detect the algorithm used to produce a hash. You can customize this behavior by providing a custom list of regular expressions and hash algorithms in the form of a JSON object. For example:
 
 ```
-const detectHash = require('detect-hash');
+import {detectHash} from 'hash-detectjs';
 
 // Customize the list of regular expressions and hash algorithms
 const regexHashMap = {
