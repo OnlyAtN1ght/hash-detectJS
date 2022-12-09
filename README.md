@@ -65,6 +65,22 @@ const regexHashMap = {
 const algorithm = detectHash('<hash>', regexHashMap);
 ```
 
+## List of supported hash
+
+**Cryptographic hash functions** : MD5, SHA-1, SHA-256, SHA-512, Whirlpool, Tiger, Haval-192, Haval-256, Streebog-256, Streebog-512
+
+**Binary-to-text encoding scheme** : Base64
+
+**Checksum algorithms** : CRC-13, CRC-16, CRC-24, CRC-16-CCITT, Adler-32, Internet Checksum, sum8, sum24, sum32, fletcher-4, fletcher-8, fletcher-16, fletcher-32
+
+**Russian cryptographic hash functions:** : GOST, HAS-160, Snefru-256
+
+**Checksum algorithms for BSD and SYSV systems** : BSD checksum, SYSV checksum
+
+**Hash functions for hash tables** : Pearson hashing, Paul Hsieh's SuperFastHash, Buzhash variable, FNV Hash, MurmurHash, Jenkins Hash
+
+**Cryptographic hash functions based on the RACE Integrity Primitives Evaluation Message Digest (RIPEMD) algorithm** : RIPEMD-128, RIPEMD-160, RIPEMD-224, RIPEMD-256, RIPEMD-320: 
+
 ## Contributing
 
 We welcome contributions to this project. If you have found a bug or have a feature request, please open a new [issue](https://github.com/OnlyAtN1ght/detect-hash/issues) and provide as much information as possible.

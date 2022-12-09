@@ -17,3 +17,5 @@ function detectHash(hash) {
   // If none of the regular expressions match, return "unknown"
   return possibleHashes;
 }
+
+module.exports = detectHash;
