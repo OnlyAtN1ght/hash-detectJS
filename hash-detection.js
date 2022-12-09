@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-export function detectHash(hash) {
+function detectHash(hash) {
   // Read the JSON file containing the regular expressions and hash algorithms
-  const regexHashMap = JSON.parse(fs.readFileSync('regex-hash-map.json'));
+  const regexHashMap = JSON.parse(fs.readFileSync(__dirname + '/regex-hash-map.json'));
 
   // Create a list to hold the possible hash algorithms
   const possibleHashes = [];
@@ -18,3 +18,6 @@ export function detectHash(hash) {
   return possibleHashes;
 }
 
+
+
+exports.detectHash = detectHash;
