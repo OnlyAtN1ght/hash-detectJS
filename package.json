@@ -1,6 +1,6 @@
 {
   "name": "hash-detectjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "detect-hash is a JavaScript module that allows you to detect the algorithm used to produce a hash. It works by matching the hash against a list of regular expressions and hash algorithms, and returns a list of possible algorithms that the hash could have been produced with. This can be useful for security and forensic applications.",
   "main": "hash-detection.js",
   "scripts": {
