@@ -22,6 +22,7 @@ const validHashes = [
 ];
 
 for (const { hash, algorithm } of validHashes) {
+  res = detectHash(hash)
   console.log(res,hash,algorithm)
   assert(res.includes(algorithm));
 }
